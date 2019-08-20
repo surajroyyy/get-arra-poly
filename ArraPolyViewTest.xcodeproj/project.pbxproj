@@ -13,6 +13,9 @@
 		25129A6020D1B3390018FAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25129A5E20D1B3390018FAF5 /* Main.storyboard */; };
 		25129A6220D1B33E0018FAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25129A6120D1B33E0018FAF5 /* Assets.xcassets */; };
 		25129A6520D1B33E0018FAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25129A6320D1B33E0018FAF5 /* LaunchScreen.storyboard */; };
+		25F0C18020F6AE2300009E52 /* thumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0C17F20F6AE2300009E52 /* thumbnailCell.swift */; };
+		25F51EA020F560210065F927 /* ThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F51E9F20F560210065F927 /* ThumbnailViewController.swift */; };
+		7B61D0EA5C24A56D8D1505C7 /* Pods_ArraPolyViewTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDD9F0844DF0F687A3DF113 /* Pods_ArraPolyViewTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,12 @@
 		25129A6120D1B33E0018FAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25129A6420D1B33E0018FAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25129A6620D1B33E0018FAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E058FA20E450CF0030B01A /* ArraPolyViewTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArraPolyViewTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		25F0C17F20F6AE2300009E52 /* thumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thumbnailCell.swift; sourceTree = "<group>"; };
+		25F51E9F20F560210065F927 /* ThumbnailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailViewController.swift; sourceTree = "<group>"; };
+		8A7C2C7EBC212D635B19FBFE /* Pods-ArraPolyViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArraPolyViewTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArraPolyViewTest/Pods-ArraPolyViewTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8BDD9F0844DF0F687A3DF113 /* Pods_ArraPolyViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArraPolyViewTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F818E463D3FB86284838D82 /* Pods-ArraPolyViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArraPolyViewTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArraPolyViewTest/Pods-ArraPolyViewTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B61D0EA5C24A56D8D1505C7 /* Pods_ArraPolyViewTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D788FE65140A82D7BB8D945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7C2C7EBC212D635B19FBFE /* Pods-ArraPolyViewTest.debug.xcconfig */,
+				9F818E463D3FB86284838D82 /* Pods-ArraPolyViewTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		25129A4C20D1B3390018FAF5 = {
 			isa = PBXGroup;
 			children = (
 				25129A5720D1B3390018FAF5 /* ArraPolyViewTest */,
 				25129A5620D1B3390018FAF5 /* Products */,
+				0D788FE65140A82D7BB8D945 /* Pods */,
+				5441AFE1342DA12EC7CA7B29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +80,23 @@
 				25129A5820D1B3390018FAF5 /* AppDelegate.swift */,
 				25129A5A20D1B3390018FAF5 /* art.scnassets */,
 				25129A5C20D1B3390018FAF5 /* ViewController.swift */,
+				25F51E9F20F560210065F927 /* ThumbnailViewController.swift */,
+				25F0C17F20F6AE2300009E52 /* thumbnailCell.swift */,
 				25129A5E20D1B3390018FAF5 /* Main.storyboard */,
 				25129A6120D1B33E0018FAF5 /* Assets.xcassets */,
 				25129A6320D1B33E0018FAF5 /* LaunchScreen.storyboard */,
 				25129A6620D1B33E0018FAF5 /* Info.plist */,
+				25E058FA20E450CF0030B01A /* ArraPolyViewTest-Bridging-Header.h */,
 			);
 			path = ArraPolyViewTest;
+			sourceTree = "<group>";
+		};
+		5441AFE1342DA12EC7CA7B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDD9F0844DF0F687A3DF113 /* Pods_ArraPolyViewTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25129A6920D1B33E0018FAF5 /* Build configuration list for PBXNativeTarget "ArraPolyViewTest" */;
 			buildPhases = (
+				D8DFE1F6C2C02FFF15881D97 /* [CP] Check Pods Manifest.lock */,
 				25129A5120D1B3390018FAF5 /* Sources */,
 				25129A5220D1B3390018FAF5 /* Frameworks */,
 				25129A5320D1B3390018FAF5 /* Resources */,
+				9202031D25ADF37EFD4F4629 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +133,7 @@
 				TargetAttributes = {
 					25129A5420D1B3390018FAF5 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -134,6 +169,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9202031D25ADF37EFD4F4629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArraPolyViewTest/Pods-ArraPolyViewTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
+				"${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZFormSheetPresentationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArraPolyViewTest/Pods-ArraPolyViewTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DFE1F6C2C02FFF15881D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArraPolyViewTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25129A5120D1B3390018FAF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +225,8 @@
 			files = (
 				25129A5D20D1B3390018FAF5 /* ViewController.swift in Sources */,
 				25129A5920D1B3390018FAF5 /* AppDelegate.swift in Sources */,
+				25F0C18020F6AE2300009E52 /* thumbnailCell.swift in Sources */,
+				25F51EA020F560210065F927 /* ThumbnailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +368,22 @@
 		};
 		25129A6A20D1B33E0018FAF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7C2C7EBC212D635B19FBFE /* Pods-ArraPolyViewTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC49XN46JF;
 				INFOPLIST_FILE = ArraPolyViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SRoy.ArraPolyViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArraPolyViewTest/ArraPolyViewTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +391,21 @@
 		};
 		25129A6B20D1B33E0018FAF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F818E463D3FB86284838D82 /* Pods-ArraPolyViewTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC49XN46JF;
 				INFOPLIST_FILE = ArraPolyViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SRoy.ArraPolyViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArraPolyViewTest/ArraPolyViewTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

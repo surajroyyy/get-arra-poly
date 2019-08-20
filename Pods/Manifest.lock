@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Disk (0.3.3)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.4.3):
+    - MZAppearance
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - ZIPFoundation (0.9.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Disk (from `https://github.com/surajroyyy/Disk.git`, commit `e5849e1471daa9480449fbda38f619b7c69963cd`)
+  - MZFormSheetPresentationController
+  - SDWebImage
+  - ZIPFoundation
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - MZAppearance
+    - MZFormSheetPresentationController
+    - SDWebImage
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  Disk:
+    :commit: e5849e1471daa9480449fbda38f619b7c69963cd
+    :git: https://github.com/surajroyyy/Disk.git
+
+CHECKOUT OPTIONS:
+  Disk:
+    :commit: e5849e1471daa9480449fbda38f619b7c69963cd
+    :git: https://github.com/surajroyyy/Disk.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Disk: 0bddaeb8c39582fafffa6b76f74ad486eb4a047a
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  ZIPFoundation: 68c35eb2637c21abe56dc60b3277636443bc1501
+
+PODFILE CHECKSUM: 7b215a73e003ee79499304c6b58021b778486c92
+
+COCOAPODS: 1.5.3
